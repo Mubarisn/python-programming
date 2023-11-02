@@ -1,0 +1,7 @@
+t=(1,2,3,4)
+print(t)
+l=list(t)
+n=int(input("type the number:"))
+l.append(n)
+t=tuple(l)
+print(t)
